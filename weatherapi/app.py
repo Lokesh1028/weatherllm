@@ -9,9 +9,8 @@ from groq import Groq
 load_dotenv()
 
 # Initialize API keys
-OPENWEATHER_API_KEY = "ecd6fc0f11cb6c567fb66f33536efcb7"
-GROQ_API_KEY = "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"
-
+OPENWEATHER_API_KEY = "place weather api here"
+GROQ_API_KEY ="place grok kkey here"
 # Check if API keys are available
 if not GROQ_API_KEY:
     st.error("❌ GROQ_API_KEY not found!")
